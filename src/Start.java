@@ -21,6 +21,8 @@ public class Start {
                     shop.addToy();
                     break;
                 case "2":
+                    System.out.println(shop.toString());
+                    break;
                 case "3":
                     System.out.println("Досвидания!");
                     return;
