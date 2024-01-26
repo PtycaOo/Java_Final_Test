@@ -1,14 +1,13 @@
 package Shop;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Shop {
-    public List<Toy> toy;
+    public PriorityQueue<Toy> toy;
 
     public Shop() {
-        toy = new ArrayList<>();
+        toy = new PriorityQueue<>(Comparator.comparing(Toy::getWeight));
+
     }
 
     public void addToy(){
@@ -20,8 +19,6 @@ public class Shop {
 
     @Override
     public String toString() {
-        return "Shop{" +
-                "toy=" + toy +
-                '}';
+        return toy.toString();
     }
 }
