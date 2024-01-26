@@ -17,6 +17,15 @@ public class Shop {
         toy.add(toyBuilder.build(Integer.parseInt(newToy[0]),newToy[1],Integer.parseInt(newToy[2])));
     }
 
+    public String draw(){
+        StringBuilder sb = new StringBuilder();
+        while (!toy.isEmpty()){
+            sb.append(toy.remove());
+            sb.append(" ");
+        }
+        return sb.toString();
+    }
+
     @Override
     public String toString() {
         return toy.toString();
