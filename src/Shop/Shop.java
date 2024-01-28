@@ -22,10 +22,12 @@ public class Shop {
 
     public void sort(){
         idToy.addAll(shop);
-        while (!idToy.isEmpty())
+        while (!idToy.isEmpty()) {
             prize.add(idToy.remove());
-    }
+        }
+        System.out.println(prize.toString());
 
+    }
 
     public void get(){
         sort();
@@ -38,7 +40,6 @@ public class Shop {
             }
             WorkWithFile.writeInfo(idToy.remove().getId());
         }
-        System.out.println("Розыгрыш проведен");
     }
 
     @Override
