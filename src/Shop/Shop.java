@@ -1,5 +1,7 @@
 package Shop;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.*;
 
 public class Shop {
@@ -36,7 +38,7 @@ public class Shop {
             }
             WorkWithFile.writeInfo(idToy.remove().getId());
         }
-        System.out.println("Розыгрыш проведен, результаты в файле");
+        System.out.println("Розыгрыш проведен");
     }
 
     @Override
