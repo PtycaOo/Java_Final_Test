@@ -3,31 +3,44 @@ package Shop;
 import java.util.*;
 
 public class Shop {
-    public PriorityQueue<Toy> toy;
+    private final ArrayList<Toy> shop;
+    private final ArrayList<Toy> prize;
+
+    private final PriorityQueue<Toy> idToy = new PriorityQueue<>(Comparator.comparing(Toy::getWeight));
 
     public Shop() {
-        toy = new PriorityQueue<>(Comparator.comparing(Toy::getWeight));
-
+        shop = new ArrayList<>();
+        prize = new ArrayList<>();
     }
 
     public void addToy(){
         ToyBuilder toyBuilder = new ToyBuilder();
-        Scanner scanner = new Scanner(System.in);
-        String[] newToy = scanner.nextLine().split(" ");
-        toy.add(toyBuilder.build(Integer.parseInt(newToy[0]),newToy[1],Integer.parseInt(newToy[2])));
+        shop.add(toyBuilder.build());
     }
 
-    public String draw(){
-        StringBuilder sb = new StringBuilder();
-        while (!toy.isEmpty()){
-            sb.append(toy.remove());
-            sb.append(" ");
+    public void sort(){
+        idToy.addAll(shop);
+        while (!idToy.isEmpty())
+            prize.add(idToy.remove());
+    }
+
+
+    public void get(){
+        sort();
+        for (int i = 0; i < 10; i++) {
+            int random_num = 1 + (int)(Math.random()*100);
+            for (Toy toy: prize){
+                if(random_num <= toy.getWeight()*10){
+                    idToy.add(toy);
+                }
+            }
+            WorkWithFile.writeInfo(idToy.remove().getId());
         }
-        return sb.toString();
+        System.out.println("Розыгрыш проведен, результаты в файле");
     }
 
     @Override
     public String toString() {
-        return toy.toString();
+        return idToy.toString();
     }
 }

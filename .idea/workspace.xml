@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a99259f1-a880-4578-9103-7b347f69be2d" name="Changes" comment="Make Shop №3">
+      <change afterPath="$PROJECT_DIR$/src/Shop/WorkWithFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/Read.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/ReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/Write.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/WriteFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shop/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop/Toy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shop/ToyBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop/ToyBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +33,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "PtycaOo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fc1c61df-940e-44c7-bd47-fee142bba816" />
+        <option name="url" value="https://github.com/PtycaOo/Java_Final_Test.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -41,20 +63,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/Seminar/untitled/src/Seminar_2.java",
+    "last_opened_file_path": "D:/GB/homeWork",
     "onboarding.tips.debug.path": "D:/Java_Final_Test/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

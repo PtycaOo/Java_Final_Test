@@ -38,11 +38,9 @@ public class Toy {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(id).append(" ");
-        sb.append(name).append(" ");
-        sb.append(weight);
-        return sb.toString();
+        return id + " " +
+                name + " " +
+                weight;
     }
 
 }
