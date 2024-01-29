@@ -23,7 +23,7 @@ public class Start {
                     shop.addToy();
                     break;
                 case "2":
-                    shop.sort();
+                    shop.get();
                     return;
                 case "3":
                     System.out.println("До свидания!");

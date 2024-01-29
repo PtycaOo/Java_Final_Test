@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a99259f1-a880-4578-9103-7b347f69be2d" name="Changes" comment="Finish">
+    <list default="true" id="a99259f1-a880-4578-9103-7b347f69be2d" name="Changes" comment="Make Shop №4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop/Shop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
@@ -25,20 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "PtycaOo"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="fc1c61df-940e-44c7-bd47-fee142bba816" />
-        <option name="url" value="https://github.com/PtycaOo/Java_Final_Test.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -48,20 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/GB/homeWork",
-    "onboarding.tips.debug.path": "D:/Java_Final_Test/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Seminar/untitled/src/Seminar_2.java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java_Final_Test/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,23 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706268297854</updated>
     </task>
-    <task id="LOCAL-00005" summary="Make Shop №3">
+    <task id="LOCAL-00005" summary="Make Shop №4">
       <option name="closed" value="true" />
-      <created>1706470050665</created>
+      <created>1706269770684</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1706470050665</updated>
+      <updated>1706269770684</updated>
     </task>
-    <task id="LOCAL-00006" summary="Finish">
-      <option name="closed" value="true" />
-      <created>1706471025567</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1706471025567</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,7 +112,7 @@
     <MESSAGE value="Make Shop" />
     <MESSAGE value="Make Shop №2" />
     <MESSAGE value="Make Shop №3" />
-    <MESSAGE value="Finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish" />
+    <MESSAGE value="Make Shop №4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make Shop №4" />
   </component>
 </project>

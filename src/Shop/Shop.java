@@ -20,21 +20,30 @@ public class Shop {
         shop.add(toyBuilder.build());
     }
 
-    public void sort(){
+    public int sort(){
+        int x = 0;
         idToy.addAll(shop);
         while (!idToy.isEmpty()) {
             prize.add(idToy.remove());
         }
+        for (Toy toy: prize){
+            x = toy.getWeight();
+        }
         System.out.println(prize.toString());
-
+        System.out.println(x);
+        return x;
     }
 
+
     public void get(){
-        sort();
+        int x = sort();
         for (int i = 0; i < 10; i++) {
-            int random_num = 1 + (int)(Math.random()*100);
+            Random random = new Random();
+            int random_num = random.nextInt(x + 1);
+            System.out.println("Случайное число");
+            System.out.println(random_num);
             for (Toy toy: prize){
-                if(random_num <= toy.getWeight()*10){
+                if(random_num <= toy.getWeight()){
                     idToy.add(toy);
                 }
             }
