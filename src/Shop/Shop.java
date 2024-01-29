@@ -1,6 +1,5 @@
 package Shop;
 
-import org.w3c.dom.ls.LSOutput;
 
 import java.util.*;
 
@@ -29,8 +28,6 @@ public class Shop {
         for (Toy toy: prize){
             x = toy.getWeight();
         }
-        System.out.println(prize.toString());
-        System.out.println(x);
         return x;
     }
 
@@ -40,7 +37,6 @@ public class Shop {
         for (int i = 0; i < 10; i++) {
             Random random = new Random();
             int random_num = random.nextInt(x + 1);
-            System.out.println("Случайное число");
             System.out.println(random_num);
             for (Toy toy: prize){
                 if(random_num <= toy.getWeight()){
